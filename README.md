@@ -1,4 +1,4 @@
-[https://youtu.be/vv6KMWEC8Jw]
+https://github.com/user-attachments/assets/1d2d620b-046a-4dce-a881-7752a75c6028
 
 Цільова платформа - мобільні девайси. URP. 3D
 Потрібно реалізувати механіку з гри Alien Invasion.

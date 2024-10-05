@@ -162,7 +162,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a38d2509048ba8a489712b676140a349, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  flightDuration: 2
+  flightDuration: 1
   maxHeight: 1
 --- !u!1 &8211295232789266788
 GameObject:

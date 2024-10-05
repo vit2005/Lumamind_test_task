@@ -27,8 +27,10 @@ public class EnemyUnit : MonoBehaviour, IUpdatable
     private void OnDestroyed(HealthHolder holder)
     {
         healthHolder.DestroyedAction -= OnDestroyed;
+        gameObject.tag = Tags.UNTAGGED_TAG;
         deathState.OnDestroyed(_player, () => {
             holder.Revive();
+            gameObject.tag = Tags.ENEMY_TAG;
             _spawner.UnregisterUnit(this); 
         });
         _currentState = deathState;
